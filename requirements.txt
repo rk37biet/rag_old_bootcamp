@@ -1,0 +1,28 @@
+# Python == 3.11
+# DO NOT pin langchain-core — let uv resolve it automatically
+
+langchain==0.1.20
+langchain-community==0.0.38
+langchain-groq==0.1.3
+langchain-openai==0.1.3        # 0.1.3 is compatible with langchain-core 0.1.x
+langchain-text-splitters==0.0.2
+
+# Vector store & embeddings
+faiss-cpu==1.7.4
+sentence-transformers==2.7.0
+
+# LLM providers
+openai==1.30.0
+groq==0.9.0
+langchain-openai
+langchain_groq
+
+# Document loading
+beautifulsoup4==4.12.3
+requests==2.31.0
+
+# Utilities
+python-dotenv==1.0.1
+tiktoken==0.7.0
+langsmith==0.1.77
+bs4
