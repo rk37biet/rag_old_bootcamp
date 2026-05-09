@@ -31,3 +31,4 @@ tiktoken==0.7.0
 langsmith==0.1.77
 bs4
 grandalf # For visualizing the chain graph
+pandas
